@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script>
+            function duplicates(arr)
+            {
+                for(var i=0; i< arr.length-1;i++)
+                {
+                    for(var j=i+1; j< arr.length;j++)
+                    {
+                        if(arr[i] == arr[j])
+                        {
+                            return arr[i];
+                        }
+                    }
+                }
+            }
+                var arr=[2,5,2,4,9,12];
+                console.log("array=" +arr);
+                console.log(duplicates(arr));
+            
+        </script>
+        <body>
+            
+        </body>
+    </head>
+</html>
