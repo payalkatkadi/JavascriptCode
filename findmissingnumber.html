@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Find the missing number from an array</title>
+  <script>
+    function test(nums) {
+  for (var i = 1; i<= nums.length + 1; i++) {
+    if (nums.indexOf(i) === -1) 
+      return i;
+  }
+}
+
+nums = [1,2,4,6,3,7,8]
+console.log("nums = "+nums)
+console.log("Missing number of array is : "+test(nums));
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>
