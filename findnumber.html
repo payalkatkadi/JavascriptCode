@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script>
+            function missingnumber(arr)
+            {
+                var sum=arr.length+1;
+                var total=sum*(sum+1)/2;
+                var totalnumbers=0;
+                for(var i=0; i< arr.length;i++)
+                {
+                   totalnumbers +=arr[i];
+
+                }
+                return total-totalnumbers;
+            }
+                var arr=[1,2,4,6,3,7,8];
+                console.log("array=" +arr);
+                console.log(missingnumber(arr));
+            
+        </script>
+        <body>
+            
+        </body>
+    </head>
+</html>
